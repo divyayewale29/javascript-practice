@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <script>
+        let count = 0;
+        function clickme()
+        {
+
+           count++;
+           document.getElementById('number').innerHTML=count;
+        }
+    </script>
+</head>
+<body>
+    <h1 id="number">0</h1>
+
+    <button onclick="clickme()">Click Me to increase</button>
+   
+</body>
+</html>

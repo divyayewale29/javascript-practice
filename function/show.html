@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script>
+    function data()
+    {
+        let username = document.getElementById("name").value
+        document.querySelector('h3').innerHTML = "Hello," +username;
+    }
+
+   </script>
+</head>
+<body>
+    <input type="text" placeholder="Enter your Name" id="name"/>
+    <br><br>
+   
+    <button onclick="data()">SHOW</button>
+
+    <br><br>
+    <h3></h3>
+
+
+    
+</body>
+</html>
