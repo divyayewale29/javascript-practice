@@ -1,0 +1,10 @@
+let x=10;
+let y=20;
+let sum=x+y;
+let sub=x-y;
+let mul=x*y;
+let div=x/y;
+console.log("sum=",sum)
+console.log("sub=",sub)
+console.log("mul=",mul)
+console.log("div=",div)
